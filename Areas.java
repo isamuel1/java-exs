@@ -8,6 +8,9 @@ public class Areas{
         int op = ed.nextInt();
         switch (op) {
             case 1:
+                System.out.println("Ingrese el lado del circulo: ");
+                double l = ed.nextDouble();
+                System.out.println("El área es: "+AreaCuadrado.computearea(l, l));
                 break;
             case 2:
                 break;
