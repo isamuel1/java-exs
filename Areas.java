@@ -10,9 +10,12 @@ public class Areas{
             case 1:
                 System.out.println("Ingrese el lado del circulo: ");
                 double l = ed.nextDouble();
-                System.out.println("El área es: "+AreaCuadrado.computearea(l, l));
+                System.out.println("El área es: "+AreaCuadrado.computearea(l));
                 break;
             case 2:
+                System.out.println("Ingrese el radio: ");
+                double r = ed.nextDouble();
+                System.out.println("El área es: "+AreaCirculo.computearea(r));
                 break;
             default:
                 System.out.println("Opcion no valida");
